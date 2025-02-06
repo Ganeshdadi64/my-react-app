@@ -1,6 +1,6 @@
-const GetMoreChild1 = () => (
+const Extensionchild1 = () => (
     <section className="bg-blue-900 text-white text-center py-16">
-    <h2 className="text-4xl font-bold">Get More Done with whitepace</h2>
+    <h2 className="text-4xl font-bold">Use as Extension</h2>
     <p className="mt-4 text-lg">Project management software that enables your teams to collaborate.</p>
     <button 
   style={{
@@ -10,7 +10,7 @@ const GetMoreChild1 = () => (
     color: "white",  // White text for contrast
     fontSize: "16px",
     border: "none",
-      
+    borderRadius: "5px",  // Rounded corners
     cursor: "pointer",  // Makes it look clickable
     marginTop: "10px",  // Space from text
     transition: "background-color 0.3s ease" // Smooth hover effect
@@ -21,5 +21,5 @@ const GetMoreChild1 = () => (
   </section>
   );
   
-  export default GetMoreChild1;
+  export default Extensionchild1;
   
