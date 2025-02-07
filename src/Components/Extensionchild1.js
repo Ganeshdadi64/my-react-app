@@ -5,18 +5,18 @@ const Extensionchild1 = () => (
     <button 
   style={{
     backgroundColor: "blue",
-    width: "120px",  // Increased width for better appearance
-    height: "40px",  // Proper height
-    color: "white",  // White text for contrast
+    width: "120px",  
+    height: "40px",  
+    color: "white",  
     fontSize: "16px",
     border: "none",
-    borderRadius: "5px",  // Rounded corners
-    cursor: "pointer",  // Makes it look clickable
-    marginTop: "10px",  // Space from text
-    transition: "background-color 0.3s ease" // Smooth hover effect
+    borderRadius: "5px",  
+    cursor: "pointer", 
+    marginTop: "10px", 
+    transition: "background-color 0.3s ease" 
   }}
  >
-  Try New 
+  Let's Go
 </button>
   </section>
   );

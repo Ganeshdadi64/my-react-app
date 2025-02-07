@@ -1,11 +1,11 @@
 import React from "react";
-import img from "../Images/PMC3.png"; 
+import img from "../Images/Favorite.png"; 
 
-const ProjectManageChild2 = () => (
+const Favorite = () => (
   <div
     style={{
       display: "flex",
-      justifyContent: "space-between", // Distributes image and text equally
+      justifyContent: "space-between", 
       alignItems: "center",
       width: "76%",
       maxWidth: "1200px",
@@ -14,7 +14,7 @@ const ProjectManageChild2 = () => (
       borderRadius: "10px",
       overflow: "hidden",
       padding: "20px", 
-      color: "#fff"
+      color: "#fff" 
     }}
   >
     
@@ -43,21 +43,21 @@ const ProjectManageChild2 = () => (
       }}
     >
       <h1 style={{ fontSize: "24px", marginBottom: "10px", color: "#000" }}>
-        Work Together
+        Work with your Favorite apps using whitespace
       </h1>
       <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#000" }}>
-        Collaborate efficiently with your team to achieve better results.
+        workspace teams up with your favorite software
       </p>
 <button 
   style={{
     backgroundColor: "blue",
     width: "120px",  
     height: "40px",  
-    color: "white",  
+    color: "white", 
     fontSize: "16px",
     border: "none",
     borderRadius: "5px",  
-    cursor: "pointer",  
+    cursor: "pointer", 
     marginTop: "10px",  
     transition: "background-color 0.3s ease" 
   }}
@@ -69,4 +69,4 @@ const ProjectManageChild2 = () => (
   </div>
 );
 
-export default ProjectManageChild2;
+export default Favorite;

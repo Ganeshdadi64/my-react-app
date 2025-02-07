@@ -6,14 +6,14 @@ const GetMore = () => (
     <div 
       className="get-more-container" 
       style={{
-        marginLeft: "3cm",  // 3 cm left margin
-        marginRight: "3cm", // 3 cm right margin
+        marginLeft: "3cm",  
+        marginRight: "3cm", 
         backgroundColor: "#043873", 
-        width: "calc(100% - 6cm)",  // Ensures responsiveness (total left + right = 6cm)
-        maxWidth: "1200px",  // Prevents excessive width
+        width: "calc(100% - 6cm)", 
+        maxWidth: "1200px", 
         height: "500px",  
         color: "#fff",
-        padding: "20px", // Adds some spacing inside the container
+        padding: "20px", 
         
       }}
     >

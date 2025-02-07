@@ -1,13 +1,14 @@
 import '../App.css';
 import Extensionchild1 from './Extensionchild1';
 import Extensionchild2 from './Extensionchild2';
+import Yourdatachild1 from './Yourdatachild1';
 
-const Extension = () => (
+const Yourdata = () => (
   <div 
     className="get-more-container" 
     style={{
-      backgroundColor: "#043873", 
-      width: "calc(100% - 6cm)",
+      backgroundColor: "#fff", 
+      width: "calc(100% - 6cm)", 
       height: "500px", 
       color: "#fff",
       marginLeft: "3cm",  
@@ -19,13 +20,8 @@ const Extension = () => (
       paddingLeft:"40px"
     }}
   >
-   <div style={{ flex: 1 }}>
-      <Extensionchild1 />
-    </div>
-    <div style={{ flex: 1 }}>
-      <Extensionchild2 />
-    </div>
+   <Yourdatachild1 />
   </div>
 );
 
-export default Extension;
+export default Yourdata;

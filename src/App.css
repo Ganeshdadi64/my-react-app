@@ -62,13 +62,178 @@
 
 .App > * {
   width: 100%;
-  margin-bottom: 1.5rem;  /* Optional: Adds space between the components */
+  
+
 }
 
-.Navbar, .Extension {
-  width: calc(100% - 6cm);  /* Ensures the 3cm padding on each side */
-  margin-left: 3cm;  /* Optional: Ensures that each of these components has 3cm padding on left */
-  margin-right: 3cm; /* Optional: Ensures that each of these components has 3cm padding on right */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
+
+/* ========== HERO SECTION ========== */
+.try-whitepace {
+  background-color: #032b5a; /* Same as footer */
+  color: white;
+  text-align: center; /* Aligns all text to the center */
+  padding: 50px 20px; /* Adds space inside the section */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  max-width: 600px; /* Restricts width to avoid stretching */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.hero-button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+
+.hero-button:hover {
+  background-color: #1565c0;
+}
+
+.team-text {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.platform-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.platform-icons img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.platform-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* ========== FOOTER SECTION ========== */
+.footer {
+  background-color: #032b5a;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+/* CTA Section */
+.footer-cta {
+  margin-top: 20px;
+}
+
+.cta-button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1c7ed6;
+}
+
+/* ========== BOTTOM BAR ========== */
+.bottom-bar {
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  padding: 15px;
+  background-color: #021e42;
+}
+
+.bottom-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  opacity: 0.8;
+}
+
+.bottom-bar a:hover {
+  opacity: 1;
+}
+
 
 

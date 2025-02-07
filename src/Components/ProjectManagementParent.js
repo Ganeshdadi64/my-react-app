@@ -6,7 +6,7 @@ const ProjectManagementParent = () => (
   <div
     style={{
       backgroundColor: "#fff",
-      width: "100%", 
+      width: "82%", 
       height: "900px",
       display: "flex",
       flexDirection: "column", 
@@ -14,8 +14,8 @@ const ProjectManagementParent = () => (
       gap: "40px", 
       paddingTop: "20px",
       paddingBottom: "20px",
-      marginLeft: "3cm",  // Adds 3cm margin on the left side
-      marginRight: "3cm", // Adds 3cm margin on the right side
+      marginLeft: "3cm",  
+      marginRight: "3cm", 
     }}
   >
     <ProjectManageChild1 />

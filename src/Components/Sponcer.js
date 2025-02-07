@@ -1,8 +1,8 @@
 import '../App.css';
 
-import imf from '../Images/ChooseP.png';
+import imf from '../Images/Sponcer.png';
 
-const Choose = () => (
+const Sponcer = () => (
     <div 
       className="choose-container" 
       style={{
@@ -24,21 +24,19 @@ const Choose = () => (
       }}
     >   
        
-       <div style={{ width: "100%" }}>
-        <h1 style={{color:"black", fontSize: "32px", marginBottom: "10px" }}>Choose your plan</h1>
-        <p  style={{color:"black"}}>whatever you want get organized keep your personal like on track or boost work place productively </p>
+       <div>
+       <h1  style={{color:"black"}}>Our Sponcers</h1>
        </div>
-
        
-       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%" }}>
-         <img 
+       <div style={{marginLeft:"2cm", justifyContent: "center", width: "115%" }}>
+        <img 
            src={imf} 
            
            style={{ 
-             maxWidth: "105%",  
+            backbroundcolor:"#fff",
+             maxWidth: "115%",  
              height: "auto",  
-             
-           }} 
+         }} 
          />
        </div>
        
@@ -47,4 +45,4 @@ const Choose = () => (
     </div>
 );
 
-export default Choose;
+export default Sponcer;

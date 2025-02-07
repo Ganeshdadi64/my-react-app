@@ -5,7 +5,7 @@ const Customise = () => (
   <div
     style={{
       display: "flex",
-      justifyContent: "space-between", // Distributes image and text equally
+      justifyContent: "space-between", 
       alignItems: "center",
       width: "76%",
       maxWidth: "1200px",
@@ -14,55 +14,55 @@ const Customise = () => (
       borderRadius: "10px",
       overflow: "hidden",
       padding: "20px", 
-      color: "#fff" // Ensures text is visible on a dark background
+      color: "#fff" 
     }}
   >
-    {/* Left side - Image */}
+   
     <div style={{ width: "50%", display: "flex", justifyContent: "center" }}>
       <img
         src={img}
         alt="Project Child 1"
         style={{
-          width: "100%", 
-          height: "auto",
+          width: "150%", 
+          height: "50%",
           objectFit: "cover",
         }}
       />
     </div>
 
-    {/* Right side - Text Content with White Background */}
+    
     <div 
       style={{ 
         width: "50%", 
         backgroundColor: "white", 
-        padding: "30px", // Adds spacing inside the white box
-        height: "100%", // Ensures the white box takes the full height
+        padding: "30px",
+        height: "100%", 
         display: "flex", 
         flexDirection: "column", 
         justifyContent: "center" 
       }}
     >
       <h1 style={{ fontSize: "24px", marginBottom: "10px", color: "#000" }}>
-        Work Together
+        Customise it to your needs
       </h1>
       <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#000" }}>
-        Collaborate efficiently with your team to achieve better results.
+       customise the app with plugins custom theams and multiple text editors
       </p>
 <button 
   style={{
     backgroundColor: "blue",
-    width: "120px",  // Increased width for better appearance
-    height: "40px",  // Proper height
-    color: "white",  // White text for contrast
+    width: "120px",  
+    height: "40px",  
+    color: "white", 
     fontSize: "16px",
     border: "none",
-    borderRadius: "5px",  // Rounded corners
-    cursor: "pointer",  // Makes it look clickable
-    marginTop: "10px",  // Space from text
-    transition: "background-color 0.3s ease" // Smooth hover effect
+    borderRadius: "5px", 
+    cursor: "pointer",  
+    marginTop: "10px",  
+    transition: "background-color 0.3s ease"
   }}
  >
-  Try New 
+  Let's Go-
 </button>
 
     </div>

@@ -9,6 +9,11 @@ import ProjectManagementParent from './Components/ProjectManagementParent';
 import Extension from './Components/Extension';
 import Customise from './Components/Customise';
 import Choose from './Components/Choose';
+import Eeverywhere from './Components/Everywhere';
+import Yourdata from './Components/Yourdata';
+import Sponcer from './Components/Sponcer';
+import Favorite from './Components/Favorite';
+import Tryspace from './Components/TrySpace';
 
 function App() {
   return (
@@ -19,6 +24,11 @@ function App() {
     <Extension />
     <Customise />
     <Choose />
+    <Eeverywhere />
+    <Yourdata />
+    <Sponcer />
+    <Favorite />
+    <Tryspace />
     {/* <WhiteSpaceSection />
     
     <WorkTogether /> */}

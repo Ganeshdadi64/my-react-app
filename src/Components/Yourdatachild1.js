@@ -1,13 +1,13 @@
 import React from "react";
-import img from "../Images/GetMoreChild2Img.png"; 
+import img from "../Images/Yourdata.png"; 
 
-const ProjectManageChild1 = () => (
+const Yourdatachild1 = () => (
   <div
   style={{
     display: "flex",
     justifyContent: "space-between", 
     alignItems: "center",
-    width: "76%",
+    width: "120%",
     maxWidth: "1200px",
     height: "350px",
    backgroundColor:"white",
@@ -33,7 +33,7 @@ const ProjectManageChild1 = () => (
     }}
   >
     <h1 style={{ fontSize: "24px", marginBottom: "10px", color: "#000" }}>
-      Project Management
+      100% you data
     </h1>
     <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#000" }}>
       image, videos and PDF's and audio files are supported crate math expression and diagrams directly from tha app
@@ -42,17 +42,17 @@ const ProjectManageChild1 = () => (
 style={{
   backgroundColor: "blue",
   width: "120px",  
-  height: "40px", 
-  color: "white", 
+  height: "40px",  
+  color: "white",  
   fontSize: "16px",
   border: "none",
-  borderRadius: "5px", 
-  cursor: "pointer", 
-  marginTop: "10px",
+  borderRadius: "5px",  
+  cursor: "pointer",  
+  marginTop: "10px",  
   transition: "background-color 0.3s ease" 
 }}
 >
-Get Started-
+Read more 
 </button>
 
   
@@ -63,7 +63,7 @@ Get Started-
       src={img}
       alt="Project Child 1"
       style={{
-        width: "110%", 
+        width: "100%", 
         height: "auto",
         objectFit: "cover",
       }}
@@ -72,4 +72,4 @@ Get Started-
 </div>
 );
 
-export default ProjectManageChild1;
+export default Yourdatachild1;
